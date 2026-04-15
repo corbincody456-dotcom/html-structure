@@ -1,0 +1,25 @@
+<html>
+    <body>
+     <p>Enter a number and click OK:</p>
+     <input id="id" type="number" min="100" max="300" required>
+
+     <button onclick="myFunction()">Ok</button>
+          
+     <p>If the number is less than 100 or grater than 300, an error message will be displayed.</p>
+
+     <p id="result"></p>
+
+        <script>
+            function myFuncion() {
+                var inpobj = document.getElementById("id");
+
+                if (!inpobj.checkValidity()) {
+                    document.getElementById("result").innerHTML = inpobj.validationMessage;
+                } else {
+                    document.getElementById("result").innerHTML = "Input OK";
+                }
+            }
+        </script>
+     
+        </body>
+</html>
