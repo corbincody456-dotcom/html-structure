@@ -1,12 +1,14 @@
-# Printing a greeting message
-print("Hello, world!")
+#Print a Sentence
+print("Welcome to the world of programing!")
 
-# Printing my name
-print("My name is Alex.")
+#Print a Number
+print(4)
 
-# Printing a fun fact about myself
-# print("I love playing soccer.")
-print("I love playing soccer")
+#Next Line after print
+print("Hello Phyton /n")
 
-# Performing and printing a simple calculation
-print("The result of 3 + 5 is:", 3 + 5)
+#Pass multiple arguments for printing
+print("hello",5)
+
+#End argument of print statement
+print("welcome to", end= "#")
