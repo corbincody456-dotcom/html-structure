@@ -1,14 +1,15 @@
-#Print a Sentence
-print("Welcome to the world of programing!")
+# Creating different variables
 
-#Print a Number
-print(4)
+x = 5
+y = "John"
 
-#Next Line after print
-print("Hello Phyton /n")
+print(x)
+print(y)
 
-#Pass multiple arguments for printing
-print("hello",5)
+codingal = "codingal"
+print(codingal)
 
-#End argument of print statement
-print("welcome to", end= "#")
+# User Input
+name = input("enter your name:  ")
+
+print("\nHello", name, "\nwelcome to codingal")
