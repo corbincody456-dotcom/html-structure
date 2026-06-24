@@ -1,10 +1,9 @@
-#input an integer value
-n = int(input("Enter the number whose sum you want to find: "))
+string = input("Please enter your own String : ")
 
-sum=0
+string2 = ('')
 
+for i in string:
+    string2 = i + string2
 
-for i in range (1, n+1):
-     sum = sum+i
-     print("\nSum =", sum)
-
+    print("\nThe Original String = ", string)
+    print("The Reversed String = ", string2)
